@@ -134,30 +134,14 @@ function maxchar(str)
 //For multiples of 3, instead of the number, print "Fizz", for multiples of 5 print "Buzz". 
 //For numbers which are multiples of both 3 and 5, print "FizzBuzz".
 
-function fizzBuzz() { 
 
-}
-function fizzBuzz() {}
-
-
-
-// Call Function
-// const output = reverseString('hello');
-// const output = isPalindrome('racecar');
-// const output = isPalindrome('hello');
-const output = reverseInt(-12345)
-const output = reverseString('hello');
-
-console.log(output);
-
-
-function fuzzbuzz()
+function fizzbuzz()
 {
   for (let i =0 ;i <=100;i++)
   {
     if(i%3===0 && i%5===0)
     {
-      console.log('fuzzBuzz');
+      console.log('fizzBuzz');
     }
     else if (i%5===0)
     {
@@ -165,7 +149,7 @@ function fuzzbuzz()
     }
     else if (i%3===0)
     {
-      console.log('fuzz');
+      console.log('fizz');
     }
     else{
       console.log(i);
